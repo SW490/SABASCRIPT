@@ -1,3 +1,0 @@
-historyBack = () => {
-	history.back();
-}
