@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="reme"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="reme"/>
+			<item value="form-control-user"/>
+			<item value="int"/>
+			<item value="font-family"/>
+			<item value="font"/>
+			<item value="text-dark"/>
+			<item value="hover-coralred"/>
+			<item value="상품소개"/>
+			<item value="101"/>
+			<item value="${contextPath}"/>
+			<item value="RequestParam"/>
+			<item value="l="/>
+			<item value="l"/>
+			<item value="page"/>
+			<item value="url"/>
+		</list>
+		<list key="replacehistory">
+			<item value="form-control"/>
+			<item value=""/>
+			<item value="final static int"/>
+			<item value="text-white"/>
+			<item value="link-danger"/>
+			<item value="${contextPath}/shop"/>
+			<item value="adminMapper"/>
+			<item value="private String gds"/>
+			<item value="String user"/>
+			<item value="private user"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-381"/>
+		<item key="DIALOG_Y_ORIGIN" value="313"/>
+		<item key="DIALOG_WIDTH" value="288"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="243"/>
+		<item key="DIALOG_Y_ORIGIN" value="391"/>
+	</section>
+</section>

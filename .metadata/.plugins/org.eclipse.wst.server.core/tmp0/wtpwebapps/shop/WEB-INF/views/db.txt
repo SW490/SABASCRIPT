@@ -1,0 +1,62 @@
+// member 테이블
+CREATE TABLE member(
+userId varchar2(100) not null primary key,
+userPass varchar2(100) not null,
+userPassRe varchar2(100) not null,
+userName varchar2(100) not null,
+userPhone varchar2(100) not null,
+userEmail varchar2(100) not null,
+userGender varchar2(100) not null,
+userAddr1 varchar2(100) not null,
+userAddr2 varchar2(100) not null,
+userAddr3 varchar2(100) not null,
+regidate date default sysdate,
+verify number default 0
+);
+
+// content 테이블
+create table content(
+contentNum number primary key not null,
+contentName varchar2(200) not null,
+contentThumbnail varchar2(500),
+contentUrl varchar2(200) not null,
+contentDes varchar2(2000)
+);
+
+create sequence contentNum;
+
+// scrap 테이블
+create table scrap(
+srcapNum number primary key not null,
+userId varchar2(100) not null,
+contentNum number not null
+);
+
+alter table scrap
+add constraint scrap_userId foreign key(userId)
+references member(userId);
+
+alter table scrap
+add constraint scrap_contentNum foreign key(contentNum)
+references content(contentNum);
+
+create sequence seq_scrap;
+
+// reply 테이블
+create table con_reply (
+repNum number not null primary key,
+userId varchar2(100) not null,
+contentNum number not null,
+repCon varchar2(500) not null,
+repDate date default sysdate
+);
+
+alter table con_reply
+add constraint con_reply_userId foreign key(userId)
+references member(userId);
+
+alter table con_reply
+add constraint con_reply_contentNum foreign key(contentNum)
+references content(contentNum);
+
+create SEQUENCE seq_reply;

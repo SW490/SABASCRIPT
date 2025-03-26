@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;exam/src/nexture/exam1&apos; to &apos;문제&apos;" description="Rename resource &apos;exam1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/nexture/exam1" name="문제" stamp="1742863762192" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;exam/src/nexture/문제&apos; to &apos;문제_nexture&apos;" description="Rename resource &apos;문제&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/nexture/문제" name="문제_nexture" stamp="1742863800730" updateReferences="true"/>
+</session>

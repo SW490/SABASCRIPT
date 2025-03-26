@@ -1,0 +1,34 @@
+package exam2025_03_26;
+
+abstract class Vehicle {
+    String name;
+    abstract public String getName(String val);
+
+    public String getName() {
+        return "Vehicle name: " + name;
+    }
+}
+
+class Car extends Vehicle {
+
+    public Car(String val) {
+        name = super.name = val;
+    }
+    public String getName(String val) {
+        return "Car name: " + val;
+    }
+    public String getName(byte val) {
+        return "Car name: " + val;
+    }
+    
+}
+
+public class Bike {
+
+	public static void main(String[] args) {
+        Vehicle car = new Car("Honda");
+        System.out.println(car.getName("Honda"));
+
+    }
+
+}

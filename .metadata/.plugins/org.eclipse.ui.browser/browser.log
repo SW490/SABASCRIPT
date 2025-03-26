@@ -1,0 +1,130 @@
+
+2月 07, 2025 10:39:18.237 NEW SESSION
+2月 07, 2025 10:39:18.237 Created TensorFlow Lite XNNPACK delegate for CPU.
+2月 07, 2025 10:39:26.864 Created TensorFlow Lite XNNPACK delegate for CPU.
+2月 07, 2025 10:42:24.825 [2076:7240:0207/104224.825:ERROR:service_client.cc(36)] Unexpected on_device_model service disconnect: The device's GPU is not supported.
+2月 07, 2025 11:06:32.593 [2076:7240:0207/110632.592:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:32.696 [2076:7240:0207/110632.696:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:32.802 [2076:7240:0207/110632.802:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:32.967 [2076:7240:0207/110632.967:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:33.563 [2076:7240:0207/110633.562:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:33.665 [2076:7240:0207/110633.665:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:33.855 [2076:7240:0207/110633.855:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:33.982 [2076:7240:0207/110633.981:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:35.956 [2076:7240:0207/110635.956:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:36.71 [2076:7240:0207/110636.071:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:36.538 [2076:7240:0207/110636.538:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:42.156 [2076:7240:0207/110642.155:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:42.274 [2076:7240:0207/110642.272:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:42.399 [2076:7240:0207/110642.398:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:42.510 [2076:7240:0207/110642.509:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:44.72 [2076:7240:0207/110644.071:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:44.192 [2076:7240:0207/110644.191:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:45.139 [2076:7240:0207/110645.138:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:45.262 [2076:7240:0207/110645.262:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:45.372 [2076:7240:0207/110645.372:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:45.758 [2076:7240:0207/110645.757:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:45.867 [2076:7240:0207/110645.867:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:45.971 [2076:7240:0207/110645.970:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:46.255 [2076:7240:0207/110646.254:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:46.364 [2076:7240:0207/110646.363:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:46.474 [2076:7240:0207/110646.473:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:47.73 [2076:7240:0207/110647.072:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:47.192 [2076:7240:0207/110647.191:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:06:48.341 [2076:7240:0207/110648.341:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:07:17.430 [2076:7240:0207/110717.430:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+2月 07, 2025 11:07:17.537 [2076:7240:0207/110717.537:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.833 s for first_image_paint 0.818 s
+
+2月 13, 2025 12:27:21.670 NEW SESSION
+2月 13, 2025 12:27:21.670 Created TensorFlow Lite XNNPACK delegate for CPU.
+2月 13, 2025 12:30:19.34 [2228:8856:0213/123019.034:ERROR:service_client.cc(36)] Unexpected on_device_model service disconnect: The device's GPU is not supported.
+
+2월 25, 2025 17:14:02.767 NEW SESSION
+2월 25, 2025 17:14:02.767 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 27, 2025 11:50:28.96 NEW SESSION
+2월 27, 2025 11:50:28.96 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 28, 2025 11:09:22.837 NEW SESSION
+2월 28, 2025 11:09:22.837 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 04, 2025 09:35:35.465 NEW SESSION
+3월 04, 2025 09:35:35.465 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 13, 2025 10:29:17.579 NEW SESSION
+3월 13, 2025 10:29:17.579 [8940:11492:0313/102917.577:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 10:29:17.686 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2025 10:29:39.55 [8940:11492:0313/102939.054:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 10:30:19.898 [8940:11492:0313/103019.897:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 10:31:55.769 [8940:11492:0313/103155.769:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 10:35:04.573 [8940:11492:0313/103504.573:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 10:42:56.377 [8940:11492:0313/104256.377:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 11:01:50.792 [8940:7772:0313/110150.791:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+3월 13, 2025 11:14:41.820 [8940:7772:0313/111441.820:ERROR:federated_auth_request_impl.cc(1599)] 
+3월 13, 2025 11:14:41.820 1
+3월 13, 2025 11:14:41.820 
+3월 13, 2025 11:25:56.688 [8940:7772:0313/112556.688:ERROR:federated_auth_request_impl.cc(1599)] 
+3월 13, 2025 11:25:56.689 1
+3월 13, 2025 11:25:56.689 
+
+3월 13, 2025 11:58:14.819 NEW SESSION
+3월 13, 2025 11:58:14.819 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2025 11:58:15.23 [1460:4952:0313/115815.022:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 11:58:42.971 [1460:4952:0313/115842.971:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 13, 2025 12:00:20.134 NEW SESSION
+3월 13, 2025 12:00:20.134 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2025 12:00:20.229 [4204:4964:0313/120020.228:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 12:00:44.737 [4204:4964:0313/120044.737:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 13, 2025 12:01:29.137 [4204:4964:0313/120129.137:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 13, 2025 12:02:50.717 NEW SESSION
+3월 13, 2025 12:02:50.717 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 13, 2025 12:02:50.824 [9932:12552:0313/120250.824:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 10:10:07.196 NEW SESSION
+3월 14, 2025 10:10:07.196 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 10:10:07.423 [8164:6436:0314/101007.423:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:10:29.614 [8164:6436:0314/101029.614:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 10:48:34.429 NEW SESSION
+3월 14, 2025 10:48:34.429 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 10:48:34.640 [11168:9256:0314/104834.640:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:48:58.350 [11168:9256:0314/104858.350:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 10:49:57.210 NEW SESSION
+3월 14, 2025 10:49:57.210 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 10:49:57.304 [8164:3844:0314/104957.304:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:50:20.79 [8164:3844:0314/105020.078:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:51:01.872 [8164:3844:0314/105101.871:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:52:53.650 [8164:3844:0314/105253.650:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 10:54:22.541 NEW SESSION
+3월 14, 2025 10:54:22.541 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 10:54:22.680 [9944:4816:0314/105422.680:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:54:49.330 [9944:4816:0314/105449.329:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:55:30.297 [9944:4816:0314/105530.297:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 10:56:58.266 [9944:4816:0314/105658.265:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 11:18:25.151 NEW SESSION
+3월 14, 2025 11:18:25.151 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 11:18:25.350 [8676:8552:0314/111825.350:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:18:46.913 [8676:8552:0314/111846.912:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:19:33.850 [8676:8552:0314/111933.849:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:21:01.889 [8676:8552:0314/112101.889:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:24:31.214 [8676:8552:0314/112431.214:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:30:29.696 [8676:8552:0314/113029.696:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 11:37:52.586 NEW SESSION
+3월 14, 2025 11:37:52.586 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 11:37:52.784 [8888:4608:0314/113752.784:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:38:17.107 [8888:4608:0314/113817.106:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:39:16.275 [8888:4608:0314/113916.275:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:40:57.429 [8888:4608:0314/114057.428:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:44:00.983 [8888:4608:0314/114400.982:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 11:49:35.613 [8888:4608:0314/114935.612:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+3월 14, 2025 12:50:43.943 NEW SESSION
+3월 14, 2025 12:50:43.943 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 14, 2025 12:50:44.27 [12804:584:0314/125044.026:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 14, 2025 12:50:50.817 [12804:6308:0314/125050.817:ERROR:get_updates_processor.cc(266)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)

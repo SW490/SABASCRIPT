@@ -1,0 +1,8 @@
+package nexture;
+
+public abstract class ServiceMenu {
+
+	int cut, color, perm, shampoo, massage;
+	public abstract String calculator();
+	
+}

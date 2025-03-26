@@ -1,0 +1,21 @@
+package exam2024;
+
+class Person {
+	private String name;
+	
+	public static String get() {
+		return name;
+	}
+	public void print() {
+		System.out.println(name);
+	}
+}
+
+public class Err {
+
+	public static void main(String[] args) {
+		Person obj = new Person("kim");
+		obj.print();
+	}
+
+}

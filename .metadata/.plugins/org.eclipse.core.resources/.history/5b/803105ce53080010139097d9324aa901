@@ -1,0 +1,23 @@
+package exam2024;
+
+public class Word {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class A2 {
+	public void paint() {
+		System.out.print("A");
+	}
+	public void draw() {
+		System.out.print(false);
+	}
+}
+
+class B2 extends A2 {
+	
+}

@@ -1,0 +1,15 @@
+package exam2024;
+
+class Parent {
+	int compute(int num) {
+		
+	}
+}
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int sum = 0;
+        
+    }
+}

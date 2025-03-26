@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.my.shop.persistence.MemberDAO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="net.sf.json.JSONArray"/>
+    <fullyQualifiedTypeName name="net.coobird.thumbnailator.Thumbnails"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.my.shop.utils.UploadFileUtils"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="com.my.shop.vo.MemberVO"/>
+    <fullyQualifiedTypeName name="com.my.shop.vo.CartVO"/>
+    <fullyQualifiedTypeName name="com.my.shop.vo.CartListVO"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.my.shop.vo.GoodsVO"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+</qualifiedTypeNameHistroy>

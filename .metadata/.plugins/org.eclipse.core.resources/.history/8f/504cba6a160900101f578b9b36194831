@@ -1,0 +1,16 @@
+package nexture;
+
+public class Visitor extends ServiceMenu {
+
+	String name;
+	int age, total;
+	
+	public Visitor(String string, int i, int[] cus1) {
+		name = this.name;
+	}
+
+	@Override
+	public String calculator() {
+		return name;
+	}
+}

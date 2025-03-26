@@ -1,0 +1,39 @@
+아래의 정보를 활용하여 결과를 출력하시오.
+
+서비스 이용료.
+cut : 12000원
+color : 10000원
+perm : 20000원
+shampoo : 2000원.
+massage : 5000원.
+
+고객
+이름 : 김문수. 나이 : 29.
+이용한 서비스 : cut, perm, massage.
+이름 : 김철수. 나이 : 18
+이용한 서비스 : cut, color, shampoo
+
+결과 출력
+김문수님의 계산서 : 37000원
+김철수님의 계산서 : 21600원(10%할인)
+(나이가 18세 이하일 경우 10% 할인된 가격을 출력하고 할인 여부를 표시함)
+
+ 
+요구사항
+이하의 클래스를 작성하시오
+HairShop : ServiceMenu를 생성하고, main메소드에 결과 출력을 위한 코딩을 작성하시오. (Visitor를 생성하고 오버라이딩 된 메소드를 이용)
+ServiceMenu : PriceTable의 값을 참조하여 변수에 값을 셋팅하시오(생성자 활용)..
+PriceTable : 모든 요소는 전역변수로 선언하고 값을 수정할 수 없도록 final 수식자를 사용하시오.
+Visitor : ServiceMenu를 상속받고, 결과를 출력할 수 있도록 ServiceMenu의 calculator메소드를 재정의하시오.
+
+
+세부 요구사항.
+HairShop : main메소드 선언
+
+ServiceMenu : 추상클래스로 선언, int cut, int color, int perm,
+int shampoo, int massage, String calculator();를 선언.
+
+PriceTable : int CUT=12000, int COLOR=10000, int PERM=20000,
+int SHAMPOO=2000, int MASSAGE=5000 선언.
+
+Visitor : ServiceMenu를 상속받음. string name, int age, int total선언.

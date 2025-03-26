@@ -1,0 +1,13 @@
+package exam2024;
+
+class Person {
+	
+}
+
+public class Err {
+
+	public static void main(String[] args) {
+		Person obj = new Person("kim");
+	}
+
+}

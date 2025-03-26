@@ -1,0 +1,10 @@
+package nexture;
+
+public class HairShop {
+
+	public static void main(String[] args) {
+
+		int[] cus1 = {0, 2, 4}
+	}
+
+}

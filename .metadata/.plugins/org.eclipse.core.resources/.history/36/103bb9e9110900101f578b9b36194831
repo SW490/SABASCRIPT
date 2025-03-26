@@ -1,0 +1,12 @@
+package exam2025_03_25;
+
+public class Main {
+
+	static int[] MakeArray() {
+		int[] tempArr = new int[4];
+	}
+	public static void main(String[] args) {
+
+	}
+
+}
