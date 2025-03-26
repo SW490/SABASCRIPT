@@ -1,57 +1,71 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<jsp:include page="../include/header.jsp" />
-	<div class="container-fluid">
-    	<div class="row">
-			<div class="col-md-12">
-				<form role="form">
-					<input type="hidden" name="gdsNum" value="${view.gdsNum}" />
-                    <!-- 익스프레션 자바 표현식 el 익스프레션 랭귀지 -->
-                </form>
-	            <div class="my-3">
-		            <div class="id__ContentsBox-cpafkd-3 id__ContentsTabGroup-cpafkd-4 cXkYhn gMsSet">
-		               <div class="id__Tabs-cpafkd-7 jEZriM">
-		                  <ul>
-		                     <li class="active">
-		                    	<button type="button">에피소드</button>
-		                     </li>
-		                     <li class="">
-		                     	<button type="button">리뷰(0)</button> 
-		                     </li>
-		                     <li class="">
-		                     	<button type="button">프로그램 소개</button>
-		                     </li>
-		                     <li class="">
-		                     	<button type="button">공식이미지</button>
-		                     </li>
-		                  </ul>
-		              	</div>
-	                  	<div class=>
-	                  		<a href="https://www.youtube.com/watch?v=HyU3XL2F9GE&t=1s">
-	                  			<div class="">
-	                  				<img src="https://img.youtube.com/vi/HyU3XL2F9GE/0.jpg" alt="휴먼 맛큐멘터리 오모우마이 가게 ~놀랍도록 후해서 재밌는 식당~" loading="lazy"/>
-	                  			</div>
-	                  		
-		                  		<div class="info text-white my-3">
-		                  			<p class="TextBox__Txt-sc-9zsjb2-1 jccqkt subject">Python超入門コース 合併版｜Pythonの超基本的な部分をたった1時間で学べます【プログラミング初心者向け入門講座】</p>
-					                <p class="TextBox__Txt-sc-9zsjb2-1 dEnfO subject">예고편</p>
-					                <span class="date">2020.3.20</span>
-					            </div>
-					         </a>  
-	                  	</div>
-	                  </div>
+<jsp:include page="../include/header.jsp" flush="false"/>
 
-                  <div class="my-3 text-white">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-3 col-lg-2 mt-5">
+                   <jsp:include page="../include/aside.jsp" />    
+               </div> 
+               <div class="col-md-9 col-lg-10">
+                  <form role="form">
+                     <input type="hidden" name="gdsNum" value="${view.gdsNum}" />
+                     <!-- 익스프레션 자바 표현식 el 익스프레션 랭귀지 -->
+                  </form>
+
+                  <div class="menubox">
+                     <div class="menubar">
+                        <ul>
+                           <li class="active">
+                           <button type="button">에피소드</button>
+                           </li>
+                           <li class="">
+                           <button type="button">리뷰(0)</button>
+                           </li><li class="">
+                           <button type="button">프로그램 소개</button>
+                           </li><li class="">
+                           <button type="button">공식이미지</button>
+                           </li>
+                        </ul>
+                     </div>
+                        
+                  <div class="my-3 content-item">
+                     <a href="https://www.youtube.com/watch?v=HyU3XL2F9GE&t=1s">
+                  <div class="">
+                     <img src="https://img.youtube.com/vi/HyU3XL2F9GE/0.jpg" alt="이미지" loading="lazy">
+                  </div>
+                  <div class="info text-white my-3">
+                     <p class="content-title subject">Python超入門コース 合併版｜Pythonの超基本的な部分をたった1時間で学べます【プログラミング初心者向け入門講座】</p>
+                     <p class="subject">예고편</p>
+                     <span class="date">2020.3.20</span>
+                  </div>
+                  </a>
+                  </div>
+                  
+                  <!-- 장바구니에 담기 -->
+                  <div class="my-3">
+                        <button type="button" class="addCart_btn btn btn-outline-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"></path>
+</svg>
+                찜하기
+              </button>
+                     <script src="/resources/js/cart.js"></script>
+                  </div>
+                  <c:if test="${view.gdsStock == 0 }">
+                     <p>상품 수량이 부족합니다</p>
+                  </c:if>
+                  <div class="text-white">
                      <label class="form-label">카테고리</label>
                      <span class="mx-3">일본어, IT</span>
                   </div>
-                  <div class="my-3 text-white">
-                     <label class="form-label">상품설명</label>
+                  <div class="text-white my-3">
+                     <label class="form-label">영상내용</label>
                      <span class="mx-3">파이썬 기초강의(이엘 테그 넣기)</span>
                   </div>
 
-                  <div id="reply" class="text-white">
+                  <div id="reply" class="text-white my-3">
                      <c:if test="${member == null}">
                         <p>리뷰를 남기시려면 <a href="/member/signin">로그인</a>해주세요</p>
                      </c:if>
@@ -79,7 +93,7 @@
                         </section>
                      </c:if>
 
-                     <section class="replyList">
+                     <section class="replyList my-3">
                         <ul class="list-group list-group-flush">
 
                         </ul>
@@ -90,12 +104,11 @@
 
                      </section>
                   </div>
-
-
-
-
+                  
                </div>
-            </div>
+
+         </div>
+         </div>
          </div>
 
 
@@ -123,17 +136,5 @@
 
             <div class="modalBackground"></div><!-- 검정색 바탕에 투명도 80 -->
          </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
          <jsp:include page="../include/footer.jsp" />
