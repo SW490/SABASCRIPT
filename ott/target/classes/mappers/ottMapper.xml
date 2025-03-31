@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.my.ott.mappers.ottMapper">
+<select id="list_1" resultType="com.my.ott.vo.ContentsViewVO">
+<![CDATA[
+select
+g.contents_Id, g.contents_title, g.contents_category_code, c.cateCodeRef, c.cateName, g.contents_video_url, g.contents_description, g.contents_created_at, g.contents_poster_img, g.contents_thumb_img,
+g.contents_likes, (select count(*) from tbl_reply r where r.contents_Id = g.contents_Id) as gdsReviewCount 
+from tbl_contents g
+inner join tbl_category c on g.contents_category_code = c.contents_category_code
+where g.contents_category_code = #{contents_category_code} or c.cateCodeRef = #{cateCodeRef}
+]]>
+</select>
+<select id="list_2" resultType="com.my.ott.vo.ContentsViewVO">
+<![CDATA[
+select
+g.contents_Id, g.contents_title, g.contents_category_code, c.cateCodeRef, c.cateName, g.contents_video_url, g.contents_description, g.contents_created_at, g.contents_poster_img, g.contents_thumb_img,
+g.contents_likes, (select count(*) from tbl_reply r where r.contents_Id = g.contents_Id) as gdsReviewCount
+from tbl_contents g
+inner join tbl_category c on g.contents_category_code = c.contents_category_code
+where g.contents_category_code = #{contents_category_code} or c.cateCodeRef = #{cateCodeRef}
+]]>
+</select>
+<select id="goodsView" resultType="com.my.ott.vo.ContentsViewVO"><!-- view -->
+<![CDATA[
+select
+g.contents_Id, g.contents_title, g.contents_category_code, c.cateCodeRef, c.cateName, g.contents_video_url, g.contents_description, g.contents_created_at, g.contents_poster_img, g.contents_thumb_img,
+g.contents_likes, (select count(*) from tbl_reply r where r.contents_Id = g.contents_Id) as gdsReviewCount
+from tbl_contents g
+inner join tbl_category c
+on g.contents_category_code = c.contents_category_code
+where g.contents_Id = #{contents_Id}
+]]>
+</select>
+
+<!-- 좋아요 시작 -->
+<select id="checkLike" resultType="int">
+<![CDATA[
+select count(*) from tbl_likes
+where userId = #{userId} and contents_Id = #{contents_Id}
+]]>
+</select>
+<insert id="insertLike">
+<![CDATA[
+insert into tbl_likes (userId, contents_Id)
+values (#{userId}, #{contents_Id})
+]]>
+</insert>
+<delete id="deleteLike">
+<![CDATA[
+delete from tbl_likes
+where userId = #{userId} and contents_Id = #{contents_Id}
+]]>
+</delete>
+<update id="incrementLikes">
+<![CDATA[
+update tbl_contents set contents_likes = contents_likes + 1 
+where contents_Id = #{contents_Id}
+]]>
+</update>
+<update id="decrementLikes">
+<![CDATA[
+update tbl_contents set contents_likes = CASE
+	WHEN contents_likes > 0 THEN contents_likes - 1
+	ELSE 0
+END 
+where contents_Id = #{contents_Id}
+]]>
+</update>
+<select id="getLikedGoodsNums" resultType="int">
+<![CDATA[
+select contents_Id from tbl_likes where userId = #{userId}
+]]>
+</select>
+<!-- 좋아요 끝 -->
+
+<!-- 댓글 시작 -->
+<insert id="registReply">
+<![CDATA[
+insert into tbl_reply(contents_Id, userId, repNum, repCon)
+values
+(#{contents_Id}, #{userId}, seq_tbl_reply.nextval, #{repCon})
+]]>
+</insert>
+<select id="replyList" resultType="com.my.ott.vo.ReplyListVO">
+<![CDATA[
+select
+r.contents_Id, r.userId, r.repNum, r.repCon, r.repDate, m.userName
+from tbl_reply r 
+inner join tbl_member m
+on r.userId = m.userId
+where contents_Id = #{contents_Id}
+]]>
+</select>
+<delete id="deleteReply">
+<![CDATA[
+delete tbl_reply
+where repNum = #{repNum} and userId = #{userId}
+]]>
+</delete>
+<select id="replyUserIdCheck" resultType="String">
+<![CDATA[
+select userId from tbl_reply where repNum = #{repNum}
+]]>
+</select>
+<update id="modifyReply">
+<![CDATA[
+update tbl_reply
+set
+repCon = #{repCon}
+where repNum = #{repNum}
+and userId = #{userId}
+]]>
+</update>
+<!-- 댓글 끝 -->
+
+</mapper>

@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="reme"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="reme"/>
-			<item value="form-control-user"/>
-			<item value="int"/>
-			<item value="font-family"/>
-			<item value="font"/>
-			<item value="text-dark"/>
-			<item value="hover-coralred"/>
-			<item value="상품소개"/>
-			<item value="101"/>
-			<item value="${contextPath}"/>
-			<item value="RequestParam"/>
-			<item value="l="/>
-			<item value="l"/>
-			<item value="page"/>
-			<item value="url"/>
+			<item value="gds"/>
+			<item value="gdsReviewCount"/>
+			<item value="gdsLikes"/>
+			<item value="gdsUrl"/>
+			<item value="gdsName"/>
+			<item value="gdsDes"/>
+			<item value="cateCode"/>
+			<item value="gdsDate"/>
+			<item value="reply"/>
+			<item value="contents_Id"/>
+			<item value="gdsThumbImg"/>
+			<item value="gdsImg"/>
+			<item value="goods_category"/>
+			<item value="contents_category"/>
+			<item value="from contents_category"/>
 		</list>
 		<list key="replacehistory">
-			<item value="form-control"/>
-			<item value=""/>
-			<item value="final static int"/>
-			<item value="text-white"/>
-			<item value="link-danger"/>
-			<item value="${contextPath}/shop"/>
-			<item value="adminMapper"/>
-			<item value="private String gds"/>
-			<item value="String user"/>
-			<item value="private user"/>
+			<item value="contents_reviewCounts"/>
+			<item value="contents_likes"/>
+			<item value="contents_video_url"/>
+			<item value="contents_title"/>
+			<item value="contents_description"/>
+			<item value="contents_category_code"/>
+			<item value="contents_created_at"/>
+			<item value="contents_thumb_img"/>
+			<item value="contents_poster_img"/>
+			<item value="contents_Id"/>
+			<item value="tbl_category"/>
+			<item value="from tbl_category"/>
+			<item value="contents"/>
+			<item value="vo.Contents"/>
+			<item value="tbl_contents"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="-381"/>
-		<item key="DIALOG_Y_ORIGIN" value="313"/>
+		<item key="DIALOG_X_ORIGIN" value="-619"/>
+		<item key="DIALOG_Y_ORIGIN" value="401"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

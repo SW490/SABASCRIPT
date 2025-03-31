@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.my.ott.mappers.adminMapper">
+<!-- 카테고리 호출 -->
+<select id="category" resultType="com.my.ott.vo.CategoryVO">
+<![CDATA[
+select
+level, cateName, contents_category_code, contents_category_codeRef
+from tbl_category
+start with contents_category_codeRef is null connect by prior contents_category_code = contents_category_coderef
+]]>
+</select>
+<insert id="register" parameterType="com.my.ott.vo.ContentsVO">
+<![CDATA[
+insert into tbl_contents(contents_Id, contents_title, contents_category_code, contents_video_url, contents_description, contents_poster_img, contents_thumb_img)
+values
+(seq_contents_Id.nextval, #{contents_title}, #{contents_category_code}, #{contents_video_url}, #{contents_description}, #{contents_poster_img}, #{contents_thumb_img})
+]]>
+</insert>
+<!-- 상품목록 -->
+<select id="contentslist" resultType="com.my.ott.vo.ContentsVO">
+<![CDATA[
+select
+contents_Id, contents_title, contents_category_code, contents_video_url, contents_description, contents_poster_img, contents_thumb_img, contents_created_at
+from tbl_contents
+order by contents_Id desc
+]]>
+</select>
+<select id="contentsView" resultType="com.my.ott.vo.ContentsViewVO">
+<![CDATA[
+select 
+g.contents_Id, g.contents_title, g.contents_category_code, c.cateCodeRef, c.cateName, g.contents_video_url, g.contents_description, g.contents_poster_img, g.contents_thumb_img, g.contents_created_at
+from tbl_contents g
+inner join tbl_category c
+on g.contents_category_code = c.contents_category_code
+where g.contents_Id = #{contents_Id}
+]]>
+</select>
+<update id="contentsModify">
+<![CDATA[
+update tbl_contents 
+set 
+contents_title = #{contents_title}, contents_category_code = #{contents_category_code}, contents_video_url = #{contents_video_url}, contents_description = #{contents_description}, contents_poster_img = #{contents_poster_img}, contents_thumb_img = #{contents_thumb_img}
+where contents_Id = #{contents_Id}
+]]>
+</update>
+<delete id="contentsDelete">
+<![CDATA[
+delete tbl_contents where contents_Id = #{contents_Id}
+]]>
+</delete>
+<select id="allReply" resultType="com.my.ott.vo.ReplyListVO">
+<![CDATA[
+select r.contents_Id, r.userId, r.repNum, r.repCon, r.repDate,
+m.userName
+from tbl_reply r
+inner join tbl_member m
+on r.userId = m.userId
+]]>
+</select>
+<delete id="deleteReply">
+<![CDATA[
+delete tbl_reply where repNum = #{repNum}
+]]>
+</delete>
+</mapper>

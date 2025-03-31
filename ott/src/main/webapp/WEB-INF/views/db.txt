@@ -1,0 +1,87 @@
+// member 테이블
+CREATE TABLE member(
+userId varchar2(100) not null primary key,
+userPass varchar2(100) not null,
+userPassRe varchar2(100) not null,
+userName varchar2(100) not null,
+userPhone varchar2(100) not null,
+userEmail varchar2(100) not null,
+userGender varchar2(100) not null,
+userAddr1 varchar2(100) not null,
+userAddr2 varchar2(100) not null,
+userAddr3 varchar2(100) not null,
+regidate date default sysdate,
+verify number default 0
+);
+
+//tbl_goods 테이블
+ALTER TABLE tbl_goods ADD gdsLikes NUMBER DEFAULT 0;
+
+ALTER TABLE tbl_goods
+DROP COLUMN gdsPrice;
+
+ALTER TABLE tbl_goods
+DROP COLUMN gdsStock;
+
+ALTER TABLE tbl_goods
+DROP COLUMN gdsProtein;
+
+ALTER TABLE tbl_goods
+ADD gdsUrl VARCHAR2(1000) DEFAULT '' NOT NULL;
+
+// likes 테이블
+CREATE TABLE tbl_likes (
+  userId   VARCHAR2(50),
+  gdsNum   NUMBER,
+  likedAt  DATE DEFAULT SYSDATE,
+  PRIMARY KEY (userId, gdsNum),
+  CONSTRAINT fk_likes_user
+    FOREIGN KEY (userId)
+    REFERENCES tbl_member(userId)
+    ON DELETE CASCADE,
+  CONSTRAINT fk_likes_goods
+    FOREIGN KEY (gdsNum)
+    REFERENCES tbl_goods(gdsNum)
+    ON DELETE CASCADE
+);
+
+
+// reply 테이블
+create table con_reply (
+repNum number not null primary key,
+userId varchar2(100) not null,
+contentNum number not null,
+repCon varchar2(500) not null,
+repDate date default sysdate
+);
+
+alter table con_reply
+add constraint con_reply_userId foreign key(userId)
+references member(userId);
+
+alter table con_reply
+add constraint con_reply_contentNum foreign key(contentNum)
+references content(contentNum);
+
+create SEQUENCE seq_reply;
+
+//DB 변경 내용 25.03.31.
+
+*shop 프로젝트를 ott로 리네이밍하고 
+그에 맞게 DB(테이블이랑 컬럼 이름 규칙)도 리모델링했습니다.
+
+rename tbl_goods to tbl_contents;
+ALTER TABLE tbl_contents RENAME COLUMN gdsNum TO contents_id;
+ALTER TABLE tbl_contents RENAME COLUMN gdsName TO contents_title;
+ALTER TABLE tbl_contents RENAME COLUMN catecode TO contents_category_code;
+ALTER TABLE tbl_contents RENAME COLUMN gdsDes TO contents_description;
+ALTER TABLE tbl_contents RENAME COLUMN gdsimg TO contents_poster_img;
+ALTER TABLE tbl_contents RENAME COLUMN gdsthumbimg TO contents_thumb_img;
+ALTER TABLE tbl_contents RENAME COLUMN gdsdate TO contents_created_at;
+ALTER TABLE tbl_contents RENAME COLUMN gdslikes TO contents_likes;
+ALTER TABLE tbl_contents RENAME COLUMN gdsurl TO contents_video_url;
+
+rename goods_category to tbl_category;
+ALTER TABLE tbl_category RENAME COLUMN catecode TO contents_category_code;
+
+ALTER TABLE tbl_reply RENAME COLUMN GDSNUM TO contents_id;
