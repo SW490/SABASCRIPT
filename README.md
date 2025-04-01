@@ -81,6 +81,7 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 
 ## 📊 DBモデリング（ERD）
 
+![Image](https://github.com/user-attachments/assets/e0b267b4-0bc9-40cc-81b8-8c40948ecbd3)
 
 ---
 
