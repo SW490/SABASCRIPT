@@ -58,7 +58,7 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 ## 🖥️ 画面設計（一部）
 
 >Main Visual
-https://github.com/user-attachments/assets/14d50d88-d596-496c-bdfb-1832b67c7465
+![Image](https://github.com/user-attachments/assets/2827963b-14e7-40c5-9dac-e8ed9326fb4a)
 
 >Login
 
