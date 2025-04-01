@@ -56,6 +56,10 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 | 🍪 Remember Me | ログイン時にID保存可能（クッキー使用） |
 
 ## 🖥️ 画面設計（一部）
+
+>Main Visual
+https://github.com/user-attachments/assets/14d50d88-d596-496c-bdfb-1832b67c7465
+
 >Login
 
 ![Image](https://github.com/user-attachments/assets/5ab75530-ea3a-4b7b-913b-7e56ecbde95c)
