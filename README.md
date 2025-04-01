@@ -61,11 +61,11 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 
 ![Image](https://github.com/user-attachments/assets/f260d3b2-2e5f-4c6d-97c3-dc7587530bd5)
 
+>Join Membership
+
+![Image](https://github.com/user-attachments/assets/9190c700-80b5-4ee8-8f6f-3784e0645d6d)
+
 >Login
-
-![Image](https://github.com/user-attachments/assets/5ab75530-ea3a-4b7b-913b-7e56ecbde95c)
-
->Login Fail
 
 ![Image](https://github.com/user-attachments/assets/7692281d-5581-4bff-80d0-7a029e066a3b)
 
