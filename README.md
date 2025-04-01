@@ -59,7 +59,7 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 
 >Main Visual
 
-![Image](https://github.com/user-attachments/assets/f260d3b2-2e5f-4c6d-97c3-dc7587530bd5)
+![Image](https://github.com/user-attachments/assets/cfee998a-333a-4569-9e02-28145e06dbd8)
 
 >Join Membership
 
