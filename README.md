@@ -14,11 +14,11 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 - 開発期間：2025年3月（約4週間）
 - 開発メンバー：2名
 
-| 名前 | メールアドレス |
-|------|----------------|
-| Park Sion（パク・シオン） | psw0097@hanyang.ac.kr | 
+| 名前 | メールアドレス | 履歴書 |
+|------|----------------|--------|
+| Park Sion（パク・シオン） | psw0097@hanyang.ac.kr | https://buly.kr/15Og2v4 | 
 | Kim Hojun（キム・ホジュン） | cardiacline@gmail.com |
-> 履歴書 | https://buly.kr/15Og2v4
+
 ---
 
 ## 👨‍🎓 想定ユーザー
