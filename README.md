@@ -18,7 +18,7 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 |------|----------------|
 | Park Sion（パク・シオン） | psw0097@hanyang.ac.kr |
 | Kim Hojun（キム・ホジュン） | cardiacline@gmail.com |
-
+> 履歴書 | https://buly.kr/15Og2v4
 ---
 
 ## 👨‍🎓 想定ユーザー
