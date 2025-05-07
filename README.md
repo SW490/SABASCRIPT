@@ -28,6 +28,12 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 
 ---
 
+## 📊 WBS
+
+![image](https://github.com/user-attachments/assets/4168f2dd-a2b4-48d1-833a-19ff2fca6fbb)
+
+---
+
 ## 🛠 技術スタック
 ### Frontend（フロントエンド）
 ![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -74,12 +80,6 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 ## 📊 DBモデリング（ERD）
 
 ![Image](https://github.com/user-attachments/assets/e0b267b4-0bc9-40cc-81b8-8c40948ecbd3)
-
----
-
-## 📊 WBS
-
-![image](https://github.com/user-attachments/assets/4168f2dd-a2b4-48d1-833a-19ff2fca6fbb)
 
 ---
 
