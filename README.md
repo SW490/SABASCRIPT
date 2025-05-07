@@ -77,6 +77,12 @@ JLPT学習法、日本のIT企業で使われるビジネス用語、開発Tips�
 
 ---
 
+## 📊 WBS
+
+![image](https://github.com/user-attachments/assets/4168f2dd-a2b4-48d1-833a-19ff2fca6fbb)
+
+---
+
 ## 💡 学び・工夫点
 
 - JSP / JSTL / EL を活用した MVCベースのビュー構成を実践
